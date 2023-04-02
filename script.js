@@ -221,9 +221,7 @@ function GetMap() {
 
 }
 function pushpinClicked(e) {
-    //Make sure the infobox has metadata to display.
     if (e.target.metadata) {
-        //Set the infobox options with the metadata of the pushpin.
         infobox.setOptions({
             location: e.target.getLocation(),
             title: e.target.metadata.title,
@@ -233,9 +231,7 @@ function pushpinClicked(e) {
     }
 }
 function pushpin2Clicked(e) {
-    //Make sure the infobox has metadata to display.
     if (e.target.metadata) {
-        //Set the infobox options with the metadata of the pushpin.
         infobox.setOptions({
             location: e.target.getLocation(),
             title: e.target.metadata.title,
